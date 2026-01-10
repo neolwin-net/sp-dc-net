@@ -7,7 +7,7 @@ title: NEO'S SERVICE PROVIDER LIBRARY
 
 # SP–DC–NET
 
-## Service Provider & Data Center Networking Knowledge Base
+## Service Provider & Data Center Networking Knowledge Library
 
 This site is dedicated to knowledge sharing on:
 
@@ -21,4 +21,4 @@ This site is dedicated to knowledge sharing on:
 - [01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase_2.pdf)
 
 ### NETWORKING-NOTES
-- Add your networking notes here.
+
