@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SP-DC-NET
+title: NEOLWIN
 ---
 
 {% include nav.html %}
