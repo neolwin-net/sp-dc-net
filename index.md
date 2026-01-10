@@ -3,12 +3,8 @@ layout: default
 title: SP-DC-NET
 ---
 
-<!-- Navigation Menu -->
-<nav>
-[Home](index.md) |
-[LAB-WRITEUPS](#lab-writeups) |
-[NETWORKING-NOTES](#networking-notes)
-</nav>
+{% include nav.html %}
+
 
 # SP–DC–NET
 
