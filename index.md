@@ -19,5 +19,4 @@ This site is dedicated to knowledge sharing on:
 [This is test!](test.md)
 
 ### LABS
-- Intenet
-[Internet] (pdf/CSC01.pdf) 
+- [Internet] (pdf/load.PNG) 
