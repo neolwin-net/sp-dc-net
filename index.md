@@ -18,3 +18,6 @@ This site is dedicated to knowledge sharing on:
 - Network monitoring, optimization & documentation
 [This is test!](test.md)
 
+##LABS
+- Intenet
+[Internet] (pdf/CSC01.pdf) 
