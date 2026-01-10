@@ -4,10 +4,31 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <title>
+    {% if page.title %}
+      {{ page.title | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </title>
+
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
+
 <body>
+
   {{ content }}
+
+  <footer>
+    <span style="position: fixed; bottom: 10px; left: 10px;">
+      NEO
+    </span>
+
+    <span style="position: fixed; bottom: 10px; right: 10px;">
+      LWIN
+    </span>
+  </footer>
+
 </body>
 </html>
