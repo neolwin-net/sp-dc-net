@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NEOLWIN
+title: NEO'S SERVICE PROVIDER LIBRARY
 ---
 
 {% include nav.html %}
