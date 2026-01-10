@@ -11,7 +11,7 @@ This site is dedicated to knowledge sharing on:
 - Network monitoring, optimization & documentation
 
 ### LAB-WRITEUPS
-[01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase2.pdf)
+[01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase_2.pdf)
 
 
 ### NETWORKING-NOTES
