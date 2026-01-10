@@ -4,42 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>
-    {% if page.title %}
-      {{ page.title | escape }}
-    {% else %}
-      {{ site.title | escape }}
-    {% endif %}
-  </title>
-
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
-
 <body>
-
-  <!-- Top Navigation -->
-  <header style="width: 100%; border-bottom: 1px solid #e5e5e5; padding: 12px 0;">
-    <nav style="max-width: 960px; margin: 0 auto; padding: 0 16px;">
-      <a href="{{ '/' | relative_url }}" style="margin-right: 20px;">Home</a>
-      <a href="{{ '/lab-writeups' | relative_url }}" style="margin-right: 20px;">Lab-Writeups</a>
-      <a href="{{ '/networkingnote' | relative_url }}">NetworkingNote</a>
-    </nav>
-  </header>
-
-  <!-- Page Content -->
-  <main style="max-width: 960px; margin: 24px auto; padding: 0 16px;">
-    {{ content }}
-  </main>
-
-  <!-- Bottom Fixed Labels -->
-  <div style="position: fixed; bottom: 12px; left: 16px; font-size: 14px;">
-    NEO
-  </div>
-
-  <div style="position: fixed; bottom: 12px; right: 16px; font-size: 14px;">
-    LWIN
-  </div>
-
+  {{ content }}
 </body>
 </html>
