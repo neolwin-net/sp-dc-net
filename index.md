@@ -19,4 +19,4 @@ This site is dedicated to knowledge sharing on:
 [This is test!](test.md)
 
 ### LABS
-- [Internet](pdf/load.PNG) 
+[Internet](pdf/load.PNG) 
