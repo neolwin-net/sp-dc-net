@@ -1,29 +1,56 @@
-/* General page styles */
+/* Dark Theme for SP-DC-NET */
 body {
-    background-color: #ffffff;  /* Light gray background */
-    color: #1a1a1a;             /* Dark text */
-    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     padding: 20px;
 }
 
 /* Headings */
 h1, h2, h3 {
-    color: #004080; /* Blue headings */
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff;
+}
+
+/* Section underline */
+h2 {
+    border-bottom: 2px solid #00ffff;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
 }
 
 /* Links */
 a {
-    color: #0080ff;
+    color: #ff6fff;
     text-decoration: none;
 }
 a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 8px #ff6fff;
     text-decoration: underline;
 }
 
-/* Code blocks or PDF links */
+/* Lists */
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Code blocks */
 pre, code {
-    background-color: #e8e8e8;
-    padding: 5px;
-    border-radius: 4px;
+    background-color: #1a1a1a;
+    color: #00ffcc;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+}
+
+/* Navigation bar */
+nav {
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 15px;
+    font-weight: bold;
 }
