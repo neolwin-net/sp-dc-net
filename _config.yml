@@ -1,2 +1,4 @@
 title: SP-DC-NET
 theme: minima
+sass:
+  style: compressed
