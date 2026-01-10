@@ -5,7 +5,6 @@ title: SP-DC-NET
 
 {% include nav.html %}
 
-
 # SP–DC–NET
 
 ## Service Provider & Data Center Networking Knowledge Base
