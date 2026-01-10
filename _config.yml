@@ -1,6 +1,0 @@
-# _config.yml for SP-DC-NET
-title: SP-DC-NET
-description: Service Provider & Data Center Networking Knowledge Base
-theme: minima
-sass:
-  style: compressed
