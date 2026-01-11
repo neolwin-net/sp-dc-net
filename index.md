@@ -32,7 +32,7 @@ This site is dedicated to knowledge sharing on:
 - [12. MPLS Inter-AS Option-A](pdf/lab_writeups/optiona.pdf)
 - [13. MPLS Inter-AS Option-B](pdf/lab_writeups/optionb.pdf)
 - [14. MPLS Inter-AS Option-C](pdf/lab_writeups/optionc.pdf)
-- [15. Carrier Supporting Carrier (CSC)](pdf/labwriteups/csc01.pdf)
+- [15. Carrier Supporting Carrier (CSC)](pdf/lab_writeups/csc01.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
