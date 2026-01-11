@@ -19,6 +19,7 @@ This site is dedicated to knowledge sharing on:
 
 ### LAB-WRITEUPS
 - [01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase_2.pdf)
+- [02. IPSec VTI with IKEv2](pdf/lab_writeups/ipsec_vti_ikev2.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
