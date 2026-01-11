@@ -20,6 +20,9 @@ This site is dedicated to knowledge sharing on:
 ### LAB-WRITEUPS
 - [01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase_2.pdf)
 - [02. IPSec VTI with IKEv2](pdf/lab_writeups/ipsec_vti_ikev2.pdf)
+- [03. GRE Over IPSec with IKEv2](pdf/lab_writeups/gre_over_ipsec_with_ikev2.pdf)
+- [04. Virtual Private Wire Services (VPWS)](pdf/lab_writeups/vpws.pdf)
+- [05. Virtual Private LAN Services (VPLS)](pdf/lab_writeups/vpls00.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
