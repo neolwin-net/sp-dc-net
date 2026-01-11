@@ -45,5 +45,5 @@ This site is dedicated to knowledge sharing on:
 - [08. Silent Killers for Network Engineers (Myanmar Language)](pdf/note_mm/kill00.pdf)
 
 ### CONTACT
-[neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
+[📧 neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
 NEO'S SERVICE PROVIDER LIBRARY
