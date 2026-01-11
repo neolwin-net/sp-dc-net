@@ -23,6 +23,11 @@ This site is dedicated to knowledge sharing on:
 - [03. GRE Over IPSec with IKEv2](pdf/lab_writeups/gre_over_ipsec_with_ikev2.pdf)
 - [04. Virtual Private Wire Services (VPWS)](pdf/lab_writeups/vpws.pdf)
 - [05. Virtual Private LAN Services (VPLS)](pdf/lab_writeups/vpls00.pdf)
+- [06. Dynamic NAT with Multiple Outside Interfaces and ISP Failover with Policy-based Routing (PBR)](pdf/lab_writeups/dnat_isp_failover_pbr.pdf)
+- [07. MPLS L3VPN (Different Scenerios)](pdf/lab_writeups/mpls_l3vpn.pdf)
+- [08. Redistribution (Route-tag, Unequal Cost Loadbalancing and Leak-map)](pdf/lab_writeups/redisribution_route_tag_UECLB_leak-map.pdf)
+- [09. TCP Load Distribution With Static NAT and Complex Wildcard Mask](pdf/lab_writeups/tcp_load_distrubution_and_wildcard_mask.pdf)
+- [10. MPLS Traffic Engineering Tunnels Per VRF](pdf/lab_writeups/te_tunnel_per_vrf.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
