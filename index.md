@@ -36,13 +36,13 @@ This site is dedicated to knowledge sharing on:
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
-- [02. Software-Defined WAN (SD-WAN)](pdf/note_mm/sd_wan00.pdf)
-- [03. What is Virtual Routing and Forwarding (VRF)](pdf/note_mm/vrf00.pdf)
-- [04. What is Multiprotocol Label Switching (MPLS)](pdf/note_mm/mpls00.pdf)
-- [05. Ethernet, Port Number, Socket and Multicast Addresses of Routing Protocols](pdf/note_mm/socket_port00.pdf)
-- [06. OSPF Link-State Advertisement Packet Types (LSA)](pdf/note_mm/lsa_types00.pdf)
-- [07. Complex Wildcard Mask Calculation](pdf/note_mm/complex_wildcard_mask.pdf)
-- [08. Silent Killers for Network Engineers](pdf/note_mm/kill00.pdf)
+- [02. Software-Defined WAN (SD-WAN) (Myanmar Language)](pdf/note_mm/sd_wan00.pdf)
+- [03. What is Virtual Routing and Forwarding (VRF) (Myanmar Language)](pdf/note_mm/vrf00.pdf)
+- [04. What is Multiprotocol Label Switching (MPLS) (Myanmar Language)](pdf/note_mm/mpls00.pdf)
+- [05. Ethernet, Port Number, Socket and Multicast Addresses of Routing Protocols (Myanmar Language)](pdf/note_mm/socket_port00.pdf)
+- [06. OSPF Link-State Advertisement Packet Types (LSA) (Myanmar Language)](pdf/note_mm/lsa_types00.pdf)
+- [07. Complex Wildcard Mask Calculation (Myanmar Language)](pdf/note_mm/complex_wildcard_mask.pdf)
+- [08. Silent Killers for Network Engineers (Myanmar Language)](pdf/note_mm/kill00.pdf)
 
 ### CONTACT
 [neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
