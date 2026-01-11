@@ -21,6 +21,7 @@ This site is dedicated to knowledge sharing on:
 - [01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase_2.pdf)
 
 ### NETWORKING-NOTES
+- [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
 
 ### CONTACT
 [neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
