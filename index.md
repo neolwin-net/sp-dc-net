@@ -7,13 +7,14 @@ title: NEO'S SERVICE PROVIDER LIBRARY
 
 # SP–DC–NET
 
-## Service Provider & Data Center Networking Knowledge Library
+## Service Provider & Data Center Networking Library
 
 This site is dedicated to knowledge sharing on:
 
 - Routing & Switching configuration (Cisco IOS, IOS-XE, IOS-XR, Huawei, Mikrotik)  
 - ISP backbone design & troubleshooting (BGP, IS-IS, OSPF, MPLS, VRF)  
 - Data Center & Service Provider network
+- Underlay & Overlay networks
 - GPON & Fiber deployment
 - Network monitoring, optimization & documentation
 
@@ -46,4 +47,6 @@ This site is dedicated to knowledge sharing on:
 
 ### CONTACT
 [📧 neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/neolwin2028)
+
 NEO'S SERVICE PROVIDER LIBRARY
