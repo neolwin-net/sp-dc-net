@@ -35,6 +35,7 @@ This site is dedicated to knowledge sharing on:
 - [14. MPLS Inter-AS Option-C](pdf/lab_writeups/optionc.pdf)
 - [15. Carrier Supporting Carrier (CSC)](pdf/lab_writeups/csc01.pdf)
 - [16. Locator/ID Separation Protocol (LISP)](pdf/lab_writeups/lisp00.pdf)
+- [17. Service Provider MPLS VPNs and BGP Peering with ISPs and Customers (SP Full Lab)](pdf/lab_writeups/sp_full_lab00.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
