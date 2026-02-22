@@ -37,6 +37,7 @@ This site is dedicated to knowledge sharing on:
 - [16. Locator/ID Separation Protocol (LISP)](pdf/lab_writeups/lisp00.pdf)
 - [17. Service Provider MPLS VPNs and BGP Peering with ISPs and Customers (SP Full Lab)](pdf/lab_writeups/sp_full_lab00.pdf)
 - [18. IXP Multilateral and Bilateral Peering Scenario](pdf/lab_writeups/ixp_peering.pdf)
+- [19. Mobile Backhaul IP/MPLS L3VPN Lab (BBU to EPC End-to-End IP Reachability)](pdf/lab_writeups/mobile_backhaul.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
