@@ -38,6 +38,7 @@ This site is dedicated to knowledge sharing on:
 - [17. Service Provider MPLS VPNs and BGP Peering with ISPs and Customers (SP Full Lab)](pdf/lab_writeups/sp_full_lab00.pdf)
 - [18. IXP Multilateral and Bilateral Peering Scenario](pdf/lab_writeups/ixp_peering.pdf)
 - [19. Mobile Backhaul IP/MPLS L3VPN Lab (BBU to EPC End-to-End IP Reachability)](pdf/lab_writeups/mobile_backhaul.pdf)
+- [20. Selective VRF Traffic Steering over PE–PE IPsec using FlexVPN in an MPLS L3VPN Core ](pdf/lab_writeups/pe-pe-ipsec.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
