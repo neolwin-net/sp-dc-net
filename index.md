@@ -49,6 +49,7 @@ This site is dedicated to knowledge sharing on:
 - [06. OSPF Link-State Advertisement Packet Types (LSA) (Myanmar Language)](pdf/note_mm/lsa_types00.pdf)
 - [07. Complex Wildcard Mask Calculation (Myanmar Language)](pdf/note_mm/complex_wildcard_mask.pdf)
 - [08. Silent Killers for Network Engineers (Myanmar Language)](pdf/note_mm/kill00.pdf)
+- [09. OSPF Special Areas (Myanmar Language)](pdf/note_mm/ospf_special_areas.pdf)
 
 ### CONTACT
 [📧 neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
