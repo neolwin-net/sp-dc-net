@@ -6,8 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <style>
+    /* Card box styles */
+    .card-container {
+      max-width: 900px;         /* Limit width */
+      margin: 40px auto;        /* Center the card */
+      padding: 25px;            /* Inner spacing */
+      background-color: #fff;   /* White background */
+      border-radius: 12px;      /* Rounded corners */
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1); /* Soft shadow */
+      transition: transform 0.2s, box-shadow 0.2s; /* Hover effect */
+    }
+
+    .card-container:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+    body {
+      background-color: #f5f5f5; /* Light page background */
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
 <body>
-  {{ content }}
+  <div class="card-container">
+    {{ content }}
+  </div>
 </body>
 </html>
