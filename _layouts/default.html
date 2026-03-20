@@ -7,16 +7,16 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
-    /* Dark card box style */
+    /* Dark card box style - preserves original font */
     .card-container {
       max-width: 900px;
       margin: 40px auto;
       padding: 25px;
       background-color: #1e1e1e;  /* Dark background */
       border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.5); /* Slightly darker shadow */
+      box-shadow: 0 6px 18px rgba(0,0,0,0.5);
       transition: transform 0.2s, box-shadow 0.2s;
-      color: #f0f0f0; /* Light text for readability */
+      /* Do NOT override color or font */
     }
 
     .card-container:hover {
@@ -26,12 +26,7 @@
 
     body {
       background-color: #121212; /* Keep page dark */
-      font-family: Arial, sans-serif;
-      color: #f0f0f0;
-    }
-
-    a {
-      color: #8ab4f8; /* Optional: link color for dark theme */
+      /* Do NOT override font-family or text color */
     }
   </style>
 </head>
