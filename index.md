@@ -5,8 +5,6 @@ title: NEO'S SERVICE PROVIDER LIBRARY
 
 {% include nav.html %}
 
-# SP–DC–NET
-
 ## Service Provider & Data Center Networking Library
 
 This site is dedicated to knowledge sharing on:
