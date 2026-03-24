@@ -54,6 +54,9 @@ a:hover {
    Navigation bar
 -------------------- */
 nav {
+    position: sticky;   /* add this */
+    top: 0;             /* add this */
+    z-index: 1000;      /* add this */
     margin-bottom: 20px;
     padding-bottom: 8px;
     border-bottom: 1px solid #333;
