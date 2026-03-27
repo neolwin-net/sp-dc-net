@@ -50,8 +50,8 @@ This site is dedicated to knowledge sharing on:
 - [09. OSPF Special Areas (Myanmar Language)](pdf/note_mm/ospf_special_areas.pdf)
 
 ### EVE-ng IMAGES
-- [Cisco IOL Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgBy3oWotuHQT7cnJ4WC8n70ARtfB4heLZIRu0DGSSH1324?e=iyVJtQ)
-- [Dynamips Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCXkOkjMCabQql4LkhZgdHsAQ4_pKdtufTQKBreZaECJKk?e=8fTQXK)
+- [Cisco IOL Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgBy3oWotuHQT7cnJ4WC8n70AcFcifHGLwh7y5wd8ziE7M0?e=ZS8NeL)
+- [Dynamips Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCXkOkjMCabQql4LkhZgdHsARso-cQXSKn5aielZPGPF0g?e=Ue52TL)
 
 ### CONTACT
 [📧 neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
