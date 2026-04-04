@@ -37,6 +37,7 @@ This site is dedicated to knowledge sharing on:
 - [18. IXP Multilateral and Bilateral Peering Scenario](pdf/lab_writeups/ixp_peering.pdf)
 - [19. Mobile Backhaul IP/MPLS L3VPN Lab (BBU to EPC End-to-End IP Reachability)](pdf/lab_writeups/mobile_backhaul.pdf)
 - [20. Selective VRF Traffic Steering over PE–PE IPsec using FlexVPN in an MPLS L3VPN Core ](pdf/lab_writeups/pe-pe-ipsec.pdf)
+- [21. Enterprise Multi-home BGP Lab](pdf/lab_writeups/ent_bgp_lab01.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
