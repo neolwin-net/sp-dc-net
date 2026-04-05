@@ -3,8 +3,6 @@ layout: default
 title: NEO'S SERVICE PROVIDER LIBRARY
 ---
 
-{% include nav.html %}
-
 ## Service Provider & Data Center Networking Library
 
 This site is dedicated to knowledge sharing on:

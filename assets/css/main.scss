@@ -7,7 +7,7 @@ html {
 
 /* Optional: Add offset for fixed headers */
 h2[id], h3[id] {
-    scroll-margin-top: 2rem;
+    scroll-margin-top: 5rem;
 }
 
 
@@ -76,26 +76,35 @@ a:hover {
    Navigation bar
 -------------------- */
 nav {
-    margin-bottom: 2rem;
-    padding: 1rem 0;
-    border-bottom: 2px solid #21262d;
-    background: linear-gradient(90deg, rgba(88, 166, 255, 0.05) 0%, transparent 100%);
+    position: sticky;
+    top: 0; /* Align to the top of the container */
+    margin: -25px -25px 2rem -25px; /* Pull to the edges of the card-container */
+    padding: 1.5rem 25px; /* Increased padding for better breathing room */
+    z-index: 1000;
+    
+    /* Solid background matching the card's theme to ensure full coverage */
+    background: #0d1117; 
+    border-bottom: 1px solid #30363d;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 12px 12px 0 0; /* Match the card-container corner radius */
 }
 
 nav a {
-    margin-right: 2rem;
-    font-weight: 500;
-    font-size: 1rem;
+    margin-right: 1.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
     color: #58a6ff;
-    padding: 0.5rem 0;
-    border-bottom: 2px solid transparent;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    border: none;
     transition: all 0.2s ease;
 }
 
 nav a:hover {
+    background-color: rgba(88, 166, 255, 0.1);
     color: #79c0ff;
-    border-bottom: 2px solid #58a6ff;
     text-shadow: 0 0 10px rgba(88, 166, 255, 0.4);
+    border-bottom: none; /* Remove the underline style for nav links */
 }
 
 hr {
