@@ -38,7 +38,7 @@ This site is dedicated to knowledge sharing on:
 - [21. Enterprise Multi-home BGP Lab](pdf/lab_writeups/ent_bgp_lab01.pdf)
 
 ### NETWORKING-NOTES
-- [01. What is a Microwave Link? (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
+- [01. What is a Microwave Link (Myanmar Language)](pdf/note_mm/microwave_link.pdf)
 - [02. Software-Defined WAN (SD-WAN) (Myanmar Language)](pdf/note_mm/sd_wan00.pdf)
 - [03. What is Virtual Routing and Forwarding (VRF) (Myanmar Language)](pdf/note_mm/vrf00.pdf)
 - [04. What is Multiprotocol Label Switching (MPLS) (Myanmar Language)](pdf/note_mm/mpls00.pdf)
