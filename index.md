@@ -37,6 +37,7 @@ This site is dedicated to knowledge sharing on:
 - [20. Selective VRF Traffic Steering over PE–PE IPsec using FlexVPN in an MPLS L3VPN Core ](pdf/lab_writeups/pe-pe-ipsec.pdf)
 - [21. Enterprise Multi-home BGP Lab](pdf/lab_writeups/ent_bgp_lab01.pdf)
 - [22. Multipoint Multi-VLAN L2VPN Service over QinQ-Based VPLS](pdf/lab_writeups/qinq_vpls_01.pdf)
+- [23. IS-IS Multi-Area & Route-Leaking Lab](pdf/lab_writeups/IS-IS_Multi-area_&_Route-leaking.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link](pdf/note_mm/microwave_link.pdf)
