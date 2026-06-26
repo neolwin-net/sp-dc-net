@@ -38,6 +38,7 @@ This site is dedicated to knowledge sharing on:
 - [21. Enterprise Multi-home BGP Lab](pdf/lab_writeups/ent_bgp_lab01.pdf)
 - [22. Multipoint Multi-VLAN L2VPN Service over QinQ-Based VPLS](pdf/lab_writeups/qinq_vpls_01.pdf)
 - [23. IS-IS Multi-Area & Route-Leaking Lab](pdf/lab_writeups/IS-IS_Multi-area_&_Route-leaking.pdf)
+- [24. Destination-Based Remotely Triggered Black Hole (RTBH)](pdf/lab_writeups/RTBH00.pdf)
 
 ### NETWORKING-NOTES
 - [01. What is a Microwave Link](pdf/note_mm/microwave_link.pdf)
