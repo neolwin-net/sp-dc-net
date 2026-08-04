@@ -52,6 +52,7 @@ This site is dedicated to knowledge sharing on:
 - [09. What is Multiprotocol Label Switching (MPLS)](pdf/note_mm/mpls00.pdf)
 - [10. What is MPLS L3VPN](pdf/note_mm/mpls_l3vpn.pdf)
 - [11. What is MPLS L2VPN](pdf/note_mm/mpls_l2vpn.pdf)
+- [12. BGP Path Selection Process](pdf/note_mm/BGP_Path_Selection_Process.pdf)
 
 
 ### EVE-ng IMAGES
