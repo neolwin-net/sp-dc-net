@@ -55,6 +55,7 @@ This site is dedicated to knowledge sharing on:
 - [10. What is MPLS L3VPN](pdf/note_mm/mpls_l3vpn.pdf)
 - [11. What is MPLS L2VPN](pdf/note_mm/mpls_l2vpn.pdf)
 - [12. BGP Path Selection Process](pdf/note_mm/BGP_Path_Selection_Process.pdf)
+- [13. BGP Path Attributes in Brief](pdf/note_mm/bgp_path_attributes_in_brief.pdf)
 
 
 ### EVE-ng IMAGES
