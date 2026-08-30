@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NEO'S SERVICE PROVIDER LIBRARY
+title: SERVICE PROVIDER LIBRARY
 ---
 
 ## Service Provider & Data Center Networking Library
