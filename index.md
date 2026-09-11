@@ -62,7 +62,8 @@ This site is dedicated to knowledge sharing on:
 - [Cisco IOL Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgBy3oWotuHQT7cnJ4WC8n70AcFcifHGLwh7y5wd8ziE7M0?e=ZS8NeL)
 - [Dynamips Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCXkOkjMCabQql4LkhZgdHsARso-cQXSKn5aielZPGPF0g?e=Ue52TL)
 - [QEMU Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgDKZ1dxKjFiR5LS2uaF2DUIAXSgTawspOCCjig6VD5_BRk?e=IHMqYQ)
-- [Business](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgDJp4_dGWbPTpTVm2B-l6K_AQIWRe_cR4Gmsn_ApLoRCQU?e=CjKZOs)
+- [Business](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCOQC4JRhHEQJlSputJXtCwAdz8eCPAtcU2exLSEWijqMk?e=715HaK)
+  
 ### CONTACT
 [📧 neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
 
