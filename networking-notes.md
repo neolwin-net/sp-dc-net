@@ -1,19 +1,261 @@
+
 ---
 layout: default
 title: Networking Notes | SP–DC–NET
 permalink: /networking-notes/
 ---
-<div class="page-heading"><span class="page-heading-icon">▤</span><div><h1>Networking Notes</h1><p>Key concepts, theory and design notes for service provider and data center networks.</p></div></div>
-<div class="resource-layout"><main class="resource-main-column"><label class="search-box"><span>⌕</span><input class="resource-search" type="search" placeholder="Search networking notes..." aria-label="Search networking notes"></label><div class="filter-chips"><button class="filter-chip is-active" data-filter="All" type="button">All Notes</button><button class="filter-chip" data-filter="IP/MPLS" type="button">IP/MPLS</button><button class="filter-chip" data-filter="BGP" type="button">BGP</button><button class="filter-chip" data-filter="Data Center" type="button">Data Center</button><button class="filter-chip" data-filter="Others" type="button">Others</button></div><p class="results-count"><span class="visible-count">13</span> networking notes</p><div class="resource-list"><a class="resource-card" data-category="Others" data-search="01. what is a microwave link others" href="{{ 'pdf/note_mm/microwave_link.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>01. What is a Microwave Link</strong><small>Others · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="Data Center" data-search="02. software-defined wan (sd-wan) data center" href="{{ 'pdf/note_mm/sd_wan00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>02. Software-Defined WAN (SD-WAN)</strong><small>Data Center · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="Others" data-search="03. ethernet, port number, socket and multicast addresses of routing protocols others" href="{{ 'pdf/note_mm/socket_port00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>03. Ethernet, Port Number, Socket and Multicast Addresses of Routing Protocols</strong><small>Others · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="04. complex wildcard mask calculation bgp" href="{{ 'pdf/note_mm/complex_wildcard_mask.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>04. Complex Wildcard Mask Calculation</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="Others" data-search="05. silent killers for network engineers others" href="{{ 'pdf/note_mm/kill00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>05. Silent Killers for Network Engineers</strong><small>Others · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="06. ospf link-state advertisement packet types (lsa) ip/mpls" href="{{ 'pdf/note_mm/lsa_types00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>06. OSPF Link-State Advertisement Packet Types (LSA)</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="07. ospf special areas ip/mpls" href="{{ 'pdf/note_mm/ospf_special_areas.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>07. OSPF Special Areas</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="08. what is virtual routing and forwarding (vrf) ip/mpls" href="{{ 'pdf/note_mm/vrf00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>08. What is Virtual Routing and Forwarding (VRF)</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="09. what is multiprotocol label switching (mpls) ip/mpls" href="{{ 'pdf/note_mm/mpls00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>09. What is Multiprotocol Label Switching (MPLS)</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="10. what is mpls l3vpn ip/mpls" href="{{ 'pdf/note_mm/mpls_l3vpn.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>10. What is MPLS L3VPN</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="11. what is mpls l2vpn ip/mpls" href="{{ 'pdf/note_mm/mpls_l2vpn.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>11. What is MPLS L2VPN</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="12. bgp path selection process bgp" href="{{ 'pdf/note_mm/BGP_Path_Selection_Process.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>12. BGP Path Selection Process</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="13. bgp path attributes in brief bgp" href="{{ 'pdf/note_mm/bgp_path_attributes_in_brief.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>13. BGP Path Attributes in Brief</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a></div><p class="no-results" hidden>No networking notes match your search.</p></main><aside class="resource-sidebar"><section class="glass-panel"><h2>Note Categories</h2><a class="sidebar-filter" href="#" data-filter="All">All Notes<span>13</span></a><a class="sidebar-filter" href="#" data-filter="IP/MPLS">IP/MPLS<span>6</span></a><a class="sidebar-filter" href="#" data-filter="BGP">BGP<span>3</span></a><a class="sidebar-filter" href="#" data-filter="Data Center">Data Center<span>1</span></a><a class="sidebar-filter" href="#" data-filter="Others">Others<span>3</span></a></section><section class="glass-panel"><h2>Quick Links</h2><a class="sidebar-filter" href="{{ '/lab-writeups/' | relative_url }}">⚗ Lab Writeups</a><a class="sidebar-filter" href="{{ '/eve-ng-images/' | relative_url }}">▣ EVE-NG Images</a></section></aside></div><script>document.addEventListener('DOMContentLoaded',function(){const input=document.querySelector('.resource-search'),cards=[...document.querySelectorAll('.resource-card')],filters=[...document.querySelectorAll('[data-filter]')],count=document.querySelector('.visible-count'),empty=document.querySelector('.no-results');let active='All';function update(){const q=(input?input.value:'').trim().toLowerCase();let n=0;cards.forEach(c=>{const ok=(active==='All'||c.dataset.category===active)&&c.dataset.search.includes(q);c.hidden=!ok;if(ok)n++;});if(count)count.textContent=n;if(empty)empty.hidden=n!==0;filters.filter(f=>f.classList.contains('filter-chip')).forEach(f=>f.classList.toggle('is-active',f.dataset.filter===active));}filters.forEach(f=>f.addEventListener('click',e=>{if(!f.dataset.filter)return;e.preventDefault();active=f.dataset.filter;update();}));if(input)input.addEventListener('input',update);update();});</script>
+
+<div class="page-heading">
+  <span class="page-heading-icon">▤</span>
+  <div>
+    <h1>Networking Notes</h1>
+    <p>Key concepts, theory and design notes for service provider and data center networks.</p>
+  </div>
+</div>
+
+<div class="resource-layout">
+  <main class="resource-main-column">
+
+    <label class="search-box">
+      <span>⌕</span>
+      <input
+        class="resource-search"
+        type="search"
+        placeholder="Search networking notes..."
+        aria-label="Search networking notes"
+      >
+    </label>
+
+    <div class="filter-chips">
+      <button class="filter-chip is-active" data-filter="All" type="button">All Notes</button>
+      <button class="filter-chip" data-filter="IP/MPLS" type="button">IP/MPLS</button>
+      <button class="filter-chip" data-filter="BGP" type="button">BGP</button>
+      <button class="filter-chip" data-filter="Data Center" type="button">Data Center</button>
+      <button class="filter-chip" data-filter="Others" type="button">Others</button>
+    </div>
+
+    <p class="results-count">
+      <span class="visible-count">13</span> networking notes
+    </p>
+
+    <div class="resource-list">
+
+      <a class="resource-card" data-category="Others" data-search="01. what is a microwave link others" href="{{ 'pdf/note_mm/microwave_link.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>01. What is a Microwave Link</strong>
+          <small>Others · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="Data Center" data-search="02. software-defined wan (sd-wan) data center" href="{{ 'pdf/note_mm/sd_wan00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>02. Software-Defined WAN (SD-WAN)</strong>
+          <small>Data Center · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="Others" data-search="03. ethernet, port number, socket and multicast addresses of routing protocols others" href="{{ 'pdf/note_mm/socket_port00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>03. Ethernet, Port Number, Socket and Multicast Addresses of Routing Protocols</strong>
+          <small>Others · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="04. complex wildcard mask calculation bgp" href="{{ 'pdf/note_mm/complex_wildcard_mask.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>04. Complex Wildcard Mask Calculation</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="Others" data-search="05. silent killers for network engineers others" href="{{ 'pdf/note_mm/kill00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>05. Silent Killers for Network Engineers</strong>
+          <small>Others · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="06. ospf link-state advertisement packet types (lsa) ip/mpls" href="{{ 'pdf/note_mm/lsa_types00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>06. OSPF Link-State Advertisement Packet Types (LSA)</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="07. ospf special areas ip/mpls" href="{{ 'pdf/note_mm/ospf_special_areas.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>07. OSPF Special Areas</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="08. what is virtual routing and forwarding (vrf) ip/mpls" href="{{ 'pdf/note_mm/vrf00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>08. What is Virtual Routing and Forwarding (VRF)</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="09. what is multiprotocol label switching (mpls) ip/mpls" href="{{ 'pdf/note_mm/mpls00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>09. What is Multiprotocol Label Switching (MPLS)</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="10. what is mpls l3vpn ip/mpls" href="{{ 'pdf/note_mm/mpls_l3vpn.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>10. What is MPLS L3VPN</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="11. what is mpls l2vpn ip/mpls" href="{{ 'pdf/note_mm/mpls_l2vpn.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>11. What is MPLS L2VPN</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="12. bgp path selection process bgp" href="{{ 'pdf/note_mm/BGP_Path_Selection_Process.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>12. BGP Path Selection Process</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="13. bgp path attributes in brief bgp" href="{{ 'pdf/note_mm/bgp_path_attributes_in_brief.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>13. BGP Path Attributes in Brief</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+    </div>
+
+    <p class="no-results" hidden>
+      No networking notes match your search.
+    </p>
+
+  </main>
+
+  <aside class="resource-sidebar">
+    <section class="glass-panel">
+      <h2>Note Categories</h2>
+
+      <a class="sidebar-filter" href="#" data-filter="All">All Notes <span>13</span></a>
+      <a class="sidebar-filter" href="#" data-filter="IP/MPLS">IP/MPLS <span>6</span></a>
+      <a class="sidebar-filter" href="#" data-filter="BGP">BGP <span>3</span></a>
+      <a class="sidebar-filter" href="#" data-filter="Data Center">Data Center <span>1</span></a>
+      <a class="sidebar-filter" href="#" data-filter="Others">Others <span>3</span></a>
+    </section>
+
+    <section class="glass-panel">
+      <h2>Quick Links</h2>
+
+      <a class="sidebar-filter" href="{{ '/lab-writeups/' | relative_url }}">
+        ⚗ Lab Writeups
+      </a>
+
+      <a class="sidebar-filter" href="{{ '/eve-ng-images/' | relative_url }}">
+        ▣ EVE-NG Images
+      </a>
+    </section>
+  </aside>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const input = document.querySelector('.resource-search');
+  const cards = [...document.querySelectorAll('.resource-card')];
+  const filters = [...document.querySelectorAll('[data-filter]')];
+  const count = document.querySelector('.visible-count');
+  const empty = document.querySelector('.no-results');
+
+  let active = 'All';
+
+  function update() {
+    const query = (input ? input.value : '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    cards.forEach(function (card) {
+      const categoryMatches =
+        active === 'All' || card.dataset.category === active;
+
+      const searchMatches =
+        card.dataset.search.includes(query);
+
+      const visible = categoryMatches && searchMatches;
+
+      card.hidden = !visible;
+
+      if (visible) {
+        visibleCount++;
+      }
+    });
+
+    if (count) {
+      count.textContent = visibleCount;
+    }
+
+    if (empty) {
+      empty.hidden = visibleCount !== 0;
+    }
+
+    filters
+      .filter(function (filter) {
+        return filter.classList.contains('filter-chip');
+      })
+      .forEach(function (filter) {
+        filter.classList.toggle(
+          'is-active',
+          filter.dataset.filter === active
+        );
+      });
+  }
+
+  filters.forEach(function (filter) {
+    filter.addEventListener('click', function (event) {
+      if (!filter.dataset.filter) {
+        return;
+      }
+
+      event.preventDefault();
+      active = filter.dataset.filter;
+      update();
+    });
+  });
+
+  if (input) {
+    input.addEventListener('input', update);
+  }
+
+  update();
+});
+</script>
