@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: EVE-NG Images | SP–DC–NET
