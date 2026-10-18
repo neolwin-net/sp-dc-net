@@ -1,10 +1,10 @@
 ---
 layout: default
-title: SP–DC–NET | Service Provider & Data Center Networking
+title: NEO SERVICE PROVIDER LIBRARY | Service Provider & Data Center Networking
 permalink: /
 ---
 <div class="home-hero">
- <div class="hero-copy"><p class="eyebrow">NETWORK ENGINEERING</p><h1>SP–DC–NET</h1><p class="hero-subtitle">Service Provider &amp; Data Center Networking Knowledge Base</p><p class="hero-topics">IP/MPLS <span>·</span> Segment Routing <span>·</span> BGP <span>·</span> Data Center</p><a class="hero-cta" href="{{ '/lab-writeups/' | relative_url }}"><span class="cta-icon">▤</span><span><strong>Technical documentation</strong><small>Labs, configurations and engineering notes</small></span><span class="cta-arrow">›</span></a></div>
+ <div class="hero-copy"><p class="eyebrow">NETWORK ENGINEERING</p><h1>NEO SERVICE PROVIDER LIBRARY</h1><p class="hero-subtitle">Service Provider &amp; Data Center Networking Library</p><p class="hero-topics">IP/MPLS <span>·</span> Segment Routing <span>·</span> BGP <span>·</span> Data Center</p><a class="hero-cta" href="{{ '/lab-writeups/' | relative_url }}"><span class="cta-icon">▤</span><span><strong>Technical documentation</strong><small>Labs, configurations and engineering notes</small></span><span class="cta-arrow">›</span></a></div>
  <div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="network-symbol">⌘</div><div class="network-caption">CONNECTED SYSTEMS<br><span>DESIGN · ROUTE · OPTIMIZE</span></div></div>
 </div>
 <div class="home-categories">
