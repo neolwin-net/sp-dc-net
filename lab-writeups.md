@@ -1,31 +1,372 @@
 ---
 layout: default
-title: Lab Writeups | SP–DC–NET
+title: Lab Writeups
 permalink: /lab-writeups/
 ---
-<div class="page-heading"><span class="page-heading-icon">⚗</span><div><h1>Lab Writeups</h1><p>Step-by-step lab guides, configurations and verification.</p></div></div>
-<div class="resource-layout"><main class="resource-main-column"><label class="search-box"><span>⌕</span><input class="resource-search" type="search" placeholder="Search lab writeups..." aria-label="Search lab writeups"></label><div class="filter-chips"><button class="filter-chip is-active" data-filter="All" type="button">All Labs</button><button class="filter-chip" data-filter="IP/MPLS" type="button">IP/MPLS</button><button class="filter-chip" data-filter="BGP" type="button">BGP</button><button class="filter-chip" data-filter="L3VPN" type="button">L3VPN</button><button class="filter-chip" data-filter="L2VPN" type="button">L2VPN</button><button class="filter-chip" data-filter="MPLS-TE" type="button">MPLS-TE</button><button class="filter-chip" data-filter="Data Center" type="button">Data Center</button></div><p class="results-count"><span class="visible-count">25</span> lab writeups</p><div class="resource-list"><a class="resource-card" data-category="IP/MPLS" data-search="01. dmvpn phase 2 with ikev2 ip/mpls" href="{{ 'pdf/lab_writeups/dmvpn_phase_2.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>01. DMVPN Phase 2 with IKEv2</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="02. ipsec vti with ikev2 ip/mpls" href="{{ 'pdf/lab_writeups/ipsec_vti_ikev2.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>02. IPSec VTI with IKEv2</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="03. gre over ipsec with ikev2 ip/mpls" href="{{ 'pdf/lab_writeups/gre_over_ipsec_with_ikev2.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>03. GRE Over IPSec with IKEv2</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L2VPN" data-search="04. virtual private wire services (vpws) l2vpn" href="{{ 'pdf/lab_writeups/vpws.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>04. Virtual Private Wire Services (VPWS)</strong><small>L2VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L2VPN" data-search="05. virtual private lan services (vpls) l2vpn" href="{{ 'pdf/lab_writeups/vpls00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>05. Virtual Private LAN Services (VPLS)</strong><small>L2VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="06. dynamic nat with multiple outside interfaces and isp failover with policy-based routing (pbr) bgp" href="{{ 'pdf/lab_writeups/dnat_isp_failover_pbr.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>06. Dynamic NAT with Multiple Outside Interfaces and ISP Failover with Policy-based Routing (PBR)</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="07. mpls l3vpn (different scenerios) l3vpn" href="{{ 'pdf/lab_writeups/mpls_l3vpn.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>07. MPLS L3VPN (Different Scenerios)</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="08. redistribution (route-tag, unequal cost loadbalancing and leak-map) ip/mpls" href="{{ 'pdf/lab_writeups/redisribution_route_tag_UECLB_leak-map.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>08. Redistribution (Route-tag, Unequal Cost Loadbalancing and Leak-map)</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="09. tcp load distribution with static nat and complex wildcard mask bgp" href="{{ 'pdf/lab_writeups/tcp_load_distrubution_and_wildcard_mask.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>09. TCP Load Distribution With Static NAT and Complex Wildcard Mask</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="MPLS-TE" data-search="10. mpls traffic engineering tunnels per vrf mpls-te" href="{{ 'pdf/lab_writeups/te_tunnel_per_vrf.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>10. MPLS Traffic Engineering Tunnels Per VRF</strong><small>MPLS-TE · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="11. seamless (or) unified mpls ip/mpls" href="{{ 'pdf/lab_writeups/seamless_unified_mpls.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>11. Seamless (or) Unified MPLS</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="12. mpls inter-as option-a l3vpn" href="{{ 'pdf/lab_writeups/optiona.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>12. MPLS Inter-AS Option-A</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="13. mpls inter-as option-b l3vpn" href="{{ 'pdf/lab_writeups/optionb.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>13. MPLS Inter-AS Option-B</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="14. mpls inter-as option-c l3vpn" href="{{ 'pdf/lab_writeups/optionc.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>14. MPLS Inter-AS Option-C</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="15. carrier supporting carrier (csc) l3vpn" href="{{ 'pdf/lab_writeups/csc01.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>15. Carrier Supporting Carrier (CSC)</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="Data Center" data-search="16. locator/id separation protocol (lisp) data center" href="{{ 'pdf/lab_writeups/lisp00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>16. Locator/ID Separation Protocol (LISP)</strong><small>Data Center · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="17. service provider mpls vpns and bgp peering with isps and customers (sp full lab) bgp" href="{{ 'pdf/lab_writeups/sp_full_lab00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>17. Service Provider MPLS VPNs and BGP Peering with ISPs and Customers (SP Full Lab)</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="18. ixp multilateral and bilateral peering scenario bgp" href="{{ 'pdf/lab_writeups/ixp_peering.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>18. IXP Multilateral and Bilateral Peering Scenario</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="19. mobile backhaul ip/mpls l3vpn lab (bbu to epc end-to-end ip reachability) l3vpn" href="{{ 'pdf/lab_writeups/mobile_backhaul.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>19. Mobile Backhaul IP/MPLS L3VPN Lab (BBU to EPC End-to-End IP Reachability)</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L3VPN" data-search="20. selective vrf traffic steering over pe–pe ipsec using flexvpn in an mpls l3vpn core l3vpn" href="{{ 'pdf/lab_writeups/pe-pe-ipsec.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>20. Selective VRF Traffic Steering over PE–PE IPsec using FlexVPN in an MPLS L3VPN Core</strong><small>L3VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="21. enterprise multi-home bgp lab bgp" href="{{ 'pdf/lab_writeups/ent_bgp_lab01.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>21. Enterprise Multi-home BGP Lab</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="22. bgp route filtering and route manipulation in an enterprise network bgp" href="{{ 'pdf/lab_writeups/BGP_Route_Filtering_And_Manipulation.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>22. BGP Route Filtering and Route Manipulation in an Enterprise Network</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="L2VPN" data-search="23. multipoint multi-vlan l2vpn service over qinq-based vpls l2vpn" href="{{ 'pdf/lab_writeups/qinq_vpls_01.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>23. Multipoint Multi-VLAN L2VPN Service over QinQ-Based VPLS</strong><small>L2VPN · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="IP/MPLS" data-search="24. is-is multi-area & route-leaking lab ip/mpls" href="{{ 'pdf/lab_writeups/IS-IS_Multi-area_&_Route-leaking.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>24. IS-IS Multi-Area & Route-Leaking Lab</strong><small>IP/MPLS · Open PDF document</small></span><span class="resource-arrow">↗</span></a>
-<a class="resource-card" data-category="BGP" data-search="25. destination-based remotely triggered black hole (rtbh) bgp" href="{{ 'pdf/lab_writeups/RTBH00.pdf' | relative_url }}"><span class="resource-icon">▤</span><span class="resource-main"><strong>25. Destination-Based Remotely Triggered Black Hole (RTBH)</strong><small>BGP · Open PDF document</small></span><span class="resource-arrow">↗</span></a></div><p class="no-results" hidden>No lab writeups match your search.</p></main><aside class="resource-sidebar"><section class="glass-panel"><h2>Categories</h2><a class="sidebar-filter" href="#" data-filter="All">All Labs<span>25</span></a><a class="sidebar-filter" href="#" data-filter="IP/MPLS">IP/MPLS<span>4</span></a><a class="sidebar-filter" href="#" data-filter="BGP">BGP<span>6</span></a><a class="sidebar-filter" href="#" data-filter="L3VPN">L3VPN<span>7</span></a><a class="sidebar-filter" href="#" data-filter="L2VPN">L2VPN<span>3</span></a><a class="sidebar-filter" href="#" data-filter="MPLS-TE">MPLS-TE<span>1</span></a><a class="sidebar-filter" href="#" data-filter="Data Center">Data Center<span>1</span></a></section><section class="glass-panel"><h2>Quick Links</h2><a class="sidebar-filter" href="{{ '/networking-notes/' | relative_url }}">▤ Networking Notes</a><a class="sidebar-filter" href="{{ '/eve-ng-images/' | relative_url }}">▣ EVE-NG Images</a></section></aside></div><script>document.addEventListener('DOMContentLoaded',function(){const input=document.querySelector('.resource-search'),cards=[...document.querySelectorAll('.resource-card')],filters=[...document.querySelectorAll('[data-filter]')],count=document.querySelector('.visible-count'),empty=document.querySelector('.no-results');let active='All';function update(){const q=(input?input.value:'').trim().toLowerCase();let n=0;cards.forEach(c=>{const ok=(active==='All'||c.dataset.category===active)&&c.dataset.search.includes(q);c.hidden=!ok;if(ok)n++;});if(count)count.textContent=n;if(empty)empty.hidden=n!==0;filters.filter(f=>f.classList.contains('filter-chip')).forEach(f=>f.classList.toggle('is-active',f.dataset.filter===active));}filters.forEach(f=>f.addEventListener('click',e=>{if(!f.dataset.filter)return;e.preventDefault();active=f.dataset.filter;update();}));if(input)input.addEventListener('input',update);update();});</script>
+
+<div class="page-heading">
+  <span class="page-heading-icon">⚗</span>
+  <div>
+    <h1>Lab Writeups</h1>
+    <p>Step-by-step lab guides, configurations and verification.</p>
+  </div>
+</div>
+
+<div class="resource-layout">
+  <main class="resource-main-column">
+
+    <label class="search-box">
+      <span>⌕</span>
+      <input
+        class="resource-search"
+        type="search"
+        placeholder="Search lab writeups..."
+        aria-label="Search lab writeups"
+      >
+    </label>
+
+    <div class="filter-chips">
+      <button class="filter-chip is-active" data-filter="All" type="button">All Labs</button>
+      <button class="filter-chip" data-filter="IP/MPLS" type="button">IP/MPLS</button>
+      <button class="filter-chip" data-filter="BGP" type="button">BGP</button>
+      <button class="filter-chip" data-filter="L3VPN" type="button">L3VPN</button>
+      <button class="filter-chip" data-filter="L2VPN" type="button">L2VPN</button>
+      <button class="filter-chip" data-filter="MPLS-TE" type="button">MPLS-TE</button>
+      <button class="filter-chip" data-filter="Data Center" type="button">Data Center</button>
+    </div>
+
+    <p class="results-count">
+      <span class="visible-count">25</span> lab writeups
+    </p>
+
+    <div class="resource-list">
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="01. dmvpn phase 2 with ikev2 ip/mpls" href="{{ 'pdf/lab_writeups/dmvpn_phase_2.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>01. DMVPN Phase 2 with IKEv2</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="02. ipsec vti with ikev2 ip/mpls" href="{{ 'pdf/lab_writeups/ipsec_vti_ikev2.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>02. IPSec VTI with IKEv2</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="03. gre over ipsec with ikev2 ip/mpls" href="{{ 'pdf/lab_writeups/gre_over_ipsec_with_ikev2.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>03. GRE Over IPSec with IKEv2</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L2VPN" data-search="04. virtual private wire services (vpws) l2vpn" href="{{ 'pdf/lab_writeups/vpws.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>04. Virtual Private Wire Services (VPWS)</strong>
+          <small>L2VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L2VPN" data-search="05. virtual private lan services (vpls) l2vpn" href="{{ 'pdf/lab_writeups/vpls00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>05. Virtual Private LAN Services (VPLS)</strong>
+          <small>L2VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="06. dynamic nat with multiple outside interfaces and isp failover with policy-based routing (pbr) bgp" href="{{ 'pdf/lab_writeups/dnat_isp_failover_pbr.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>06. Dynamic NAT with Multiple Outside Interfaces and ISP Failover with Policy-based Routing (PBR)</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="07. mpls l3vpn (different scenerios) l3vpn" href="{{ 'pdf/lab_writeups/mpls_l3vpn.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>07. MPLS L3VPN (Different Scenerios)</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="08. redistribution (route-tag, unequal cost loadbalancing and leak-map) ip/mpls" href="{{ 'pdf/lab_writeups/redisribution_route_tag_UECLB_leak-map.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>08. Redistribution (Route-tag, Unequal Cost Loadbalancing and Leak-map)</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="09. tcp load distribution with static nat and complex wildcard mask bgp" href="{{ 'pdf/lab_writeups/tcp_load_distrubution_and_wildcard_mask.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>09. TCP Load Distribution With Static NAT and Complex Wildcard Mask</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="MPLS-TE" data-search="10. mpls traffic engineering tunnels per vrf mpls-te" href="{{ 'pdf/lab_writeups/te_tunnel_per_vrf.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>10. MPLS Traffic Engineering Tunnels Per VRF</strong>
+          <small>MPLS-TE · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="11. seamless (or) unified mpls ip/mpls" href="{{ 'pdf/lab_writeups/seamless_unified_mpls.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>11. Seamless (or) Unified MPLS</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="12. mpls inter-as option-a l3vpn" href="{{ 'pdf/lab_writeups/optiona.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>12. MPLS Inter-AS Option-A</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="13. mpls inter-as option-b l3vpn" href="{{ 'pdf/lab_writeups/optionb.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>13. MPLS Inter-AS Option-B</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="14. mpls inter-as option-c l3vpn" href="{{ 'pdf/lab_writeups/optionc.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>14. MPLS Inter-AS Option-C</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="15. carrier supporting carrier (csc) l3vpn" href="{{ 'pdf/lab_writeups/csc01.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>15. Carrier Supporting Carrier (CSC)</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="Data Center" data-search="16. locator/id separation protocol (lisp) data center" href="{{ 'pdf/lab_writeups/lisp00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>16. Locator/ID Separation Protocol (LISP)</strong>
+          <small>Data Center · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="17. service provider mpls vpns and bgp peering with isps and customers (sp full lab) bgp" href="{{ 'pdf/lab_writeups/sp_full_lab00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>17. Service Provider MPLS VPNs and BGP Peering with ISPs and Customers (SP Full Lab)</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="18. ixp multilateral and bilateral peering scenario bgp" href="{{ 'pdf/lab_writeups/ixp_peering.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>18. IXP Multilateral and Bilateral Peering Scenario</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="19. mobile backhaul ip/mpls l3vpn lab (bbu to epc end-to-end ip reachability) l3vpn" href="{{ 'pdf/lab_writeups/mobile_backhaul.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>19. Mobile Backhaul IP/MPLS L3VPN Lab (BBU to EPC End-to-End IP Reachability)</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L3VPN" data-search="20. selective vrf traffic steering over pe–pe ipsec using flexvpn in an mpls l3vpn core l3vpn" href="{{ 'pdf/lab_writeups/pe-pe-ipsec.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>20. Selective VRF Traffic Steering over PE–PE IPsec using FlexVPN in an MPLS L3VPN Core</strong>
+          <small>L3VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="21. enterprise multi-home bgp lab bgp" href="{{ 'pdf/lab_writeups/ent_bgp_lab01.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>21. Enterprise Multi-home BGP Lab</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="22. bgp route filtering and route manipulation in an enterprise network bgp" href="{{ 'pdf/lab_writeups/BGP_Route_Filtering_And_Manipulation.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>22. BGP Route Filtering and Route Manipulation in an Enterprise Network</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="L2VPN" data-search="23. multipoint multi-vlan l2vpn service over qinq-based vpls l2vpn" href="{{ 'pdf/lab_writeups/qinq_vpls_01.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>23. Multipoint Multi-VLAN L2VPN Service over QinQ-Based VPLS</strong>
+          <small>L2VPN · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="IP/MPLS" data-search="24. is-is multi-area & route-leaking lab ip/mpls" href="{{ 'pdf/lab_writeups/IS-IS_Multi-area_&_Route-leaking.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>24. IS-IS Multi-Area & Route-Leaking Lab</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+      <a class="resource-card" data-category="BGP" data-search="25. destination-based remotely triggered black hole (rtbh) bgp" href="{{ 'pdf/lab_writeups/RTBH00.pdf' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>25. Destination-Based Remotely Triggered Black Hole (RTBH)</strong>
+          <small>BGP · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+
+    </div>
+
+    <p class="no-results" hidden>
+      No lab writeups match your search.
+    </p>
+
+  </main>
+
+  <aside class="resource-sidebar">
+    <section class="glass-panel">
+      <h2>Categories</h2>
+
+      <a class="sidebar-filter" href="#" data-filter="All">All Labs <span>25</span></a>
+      <a class="sidebar-filter" href="#" data-filter="IP/MPLS">IP/MPLS <span>4</span></a>
+      <a class="sidebar-filter" href="#" data-filter="BGP">BGP <span>6</span></a>
+      <a class="sidebar-filter" href="#" data-filter="L3VPN">L3VPN <span>7</span></a>
+      <a class="sidebar-filter" href="#" data-filter="L2VPN">L2VPN <span>3</span></a>
+      <a class="sidebar-filter" href="#" data-filter="MPLS-TE">MPLS-TE <span>1</span></a>
+      <a class="sidebar-filter" href="#" data-filter="Data Center">Data Center <span>1</span></a>
+    </section>
+
+    <section class="glass-panel">
+      <h2>Quick Links</h2>
+
+      <a class="sidebar-filter" href="{{ '/networking-notes/' | relative_url }}">
+        ▤ Networking Notes
+      </a>
+
+      <a class="sidebar-filter" href="{{ '/eve-ng-images/' | relative_url }}">
+        ▣ EVE-NG Images
+      </a>
+    </section>
+  </aside>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const input = document.querySelector('.resource-search');
+  const cards = [...document.querySelectorAll('.resource-card')];
+  const filters = [...document.querySelectorAll('[data-filter]')];
+  const count = document.querySelector('.visible-count');
+  const empty = document.querySelector('.no-results');
+
+  let active = 'All';
+
+  function update() {
+    const query = (input ? input.value : '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    cards.forEach(function (card) {
+      const categoryMatches =
+        active === 'All' || card.dataset.category === active;
+
+      const searchMatches =
+        card.dataset.search.includes(query);
+
+      const visible = categoryMatches && searchMatches;
+
+      card.hidden = !visible;
+
+      if (visible) {
+        visibleCount++;
+      }
+    });
+
+    if (count) {
+      count.textContent = visibleCount;
+    }
+
+    if (empty) {
+      empty.hidden = visibleCount !== 0;
+    }
+
+    filters
+      .filter(function (filter) {
+        return filter.classList.contains('filter-chip');
+      })
+      .forEach(function (filter) {
+        filter.classList.toggle(
+          'is-active',
+          filter.dataset.filter === active
+        );
+      });
+  }
+
+  filters.forEach(function (filter) {
+    filter.addEventListener('click', function (event) {
+      if (!filter.dataset.filter) {
+        return;
+      }
+
+      event.preventDefault();
+      active = filter.dataset.filter;
+      update();
+    });
+  });
+
+  if (input) {
+    input.addEventListener('input', update);
+  }
+
+  update();
+});
+</script>
