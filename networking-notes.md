@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Networking Notes | SP–DC–NET
