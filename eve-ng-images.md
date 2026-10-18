@@ -74,19 +74,6 @@ permalink: /eve-ng-images/
         <span class="download-label">↗ Open collection</span>
       </a>
 
-      <!-- Business -->
-      <a
-        class="image-card resource-card"
-        data-category="Business"
-        data-search="business images resources"
-        href="https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCOQC4JRhHEQJlSputJXtCwAdz8eCPAtcU2exLSEWijqMk?e=715HaK"
-      >
-        <span class="image-card-icon">▤</span>
-        <strong>Business</strong>
-        <small>Additional resource collection</small>
-        <span class="download-label">↗ Open collection</span>
-      </a>
-
     </div>
 
     <!-- Empty Search Results -->
@@ -104,7 +91,7 @@ permalink: /eve-ng-images/
       <h2>Image Categories</h2>
 
       <a class="sidebar-filter" href="#" data-filter="All">
-        All Collections <span>4</span>
+        All Collections <span>3</span>
       </a>
 
       <a class="sidebar-filter" href="#" data-filter="Cisco IOL">
@@ -119,9 +106,6 @@ permalink: /eve-ng-images/
         QEMU <span>1</span>
       </a>
 
-      <a class="sidebar-filter" href="#" data-filter="Business">
-        Business <span>1</span>
-      </a>
     </section>
 
     <!-- Quick Links -->
