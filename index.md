@@ -1,88 +1,21 @@
 ---
 layout: default
-title: SERVICE PROVIDER LIBRARY
+title: SP–DC–NET | Service Provider & Data Center Networking
+permalink: /
 ---
-
 <div class="home-hero">
-  <div class="hero-copy">
-    <p class="eyebrow">SERVICE PROVIDER • DATA CENTER</p>
-    <h1>SP–DC–NET</h1>
-    <p class="hero-subtitle">Service Provider &amp; Data Center Networking Knowledge Base</p>
-    <p class="hero-topics">IP/MPLS <span>·</span> Segment Routing <span>·</span> BGP <span>·</span> Data Center</p>
-    <a class="hero-cta" href="#lab-writeups"><span class="cta-icon">↗</span><span><strong>Technical documentation</strong><small>Labs, configurations and engineering notes</small></span><span class="cta-arrow">›</span></a>
-  </div>
-  <div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="network-symbol">⌘</div><div class="network-caption">CONNECTED SYSTEMS<br><span>DESIGN · ROUTE · OPTIMIZE</span></div></div>
+ <div class="hero-copy"><p class="eyebrow">NETWORK ENGINEERING</p><h1>SP–DC–NET</h1><p class="hero-subtitle">Service Provider &amp; Data Center Networking Knowledge Base</p><p class="hero-topics">IP/MPLS <span>·</span> Segment Routing <span>·</span> BGP <span>·</span> Data Center</p><a class="hero-cta" href="{{ '/lab-writeups/' | relative_url }}"><span class="cta-icon">▤</span><span><strong>Technical documentation</strong><small>Labs, configurations and engineering notes</small></span><span class="cta-arrow">›</span></a></div>
+ <div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="network-symbol">⌘</div><div class="network-caption">CONNECTED SYSTEMS<br><span>DESIGN · ROUTE · OPTIMIZE</span></div></div>
 </div>
-
 <div class="home-categories">
-  <a class="category-card" href="#lab-writeups"><span class="category-icon">⌘</span><span class="category-copy"><strong>Service Provider</strong><small>MPLS, BGP, SR-TE</small><span>Core networks, carrier routing, traffic engineering and service provider architecture.</span></span><span class="category-arrow">›</span></a>
-  <a class="category-card" href="#networking-notes"><span class="category-icon">▤</span><span class="category-copy"><strong>Data Center &amp; Networking</strong><small>Routing, design, labs</small><span>Network fundamentals, design concepts, configuration notes and troubleshooting.</span></span><span class="category-arrow">›</span></a>
+<a class="category-card" href="{{ '/lab-writeups/' | relative_url }}"><span class="category-icon">⌘</span><span class="category-copy"><strong>Lab Writeups</strong><small>25 configuration labs</small><span>MPLS, BGP, VPNs, traffic engineering and verification.</span></span><span class="category-arrow">›</span></a>
+<a class="category-card" href="{{ '/networking-notes/' | relative_url }}"><span class="category-icon">▤</span><span class="category-copy"><strong>Networking Notes</strong><small>13 technical references</small><span>Protocol theory, network design and troubleshooting concepts.</span></span><span class="category-arrow">›</span></a>
+<a class="category-card" href="{{ '/eve-ng-images/' | relative_url }}"><span class="category-icon">▣</span><span class="category-copy"><strong>EVE-NG Images</strong><small>Image collections</small><span>Quick access to the existing IOS, Dynamips and QEMU collections.</span></span><span class="category-arrow">›</span></a>
 </div>
-
-## Service Provider & Data Center Networking Library
-
-This site is dedicated to knowledge sharing on:
-
-- Routing & Switching configuration (Cisco IOS, IOS-XE, IOS-XR, Huawei, Mikrotik)  
-- ISP backbone design & troubleshooting (BGP, IS-IS, OSPF, MPLS, VRF)  
-- Data Center & Service Provider network
-- Underlay & Overlay networks
-- GPON & Fiber deployment
-- Network monitoring, optimization & documentation
-
-### LAB-WRITEUPS
-- [01. DMVPN Phase 2 with IKEv2](pdf/lab_writeups/dmvpn_phase_2.pdf)
-- [02. IPSec VTI with IKEv2](pdf/lab_writeups/ipsec_vti_ikev2.pdf)
-- [03. GRE Over IPSec with IKEv2](pdf/lab_writeups/gre_over_ipsec_with_ikev2.pdf)
-- [04. Virtual Private Wire Services (VPWS)](pdf/lab_writeups/vpws.pdf)
-- [05. Virtual Private LAN Services (VPLS)](pdf/lab_writeups/vpls00.pdf)
-- [06. Dynamic NAT with Multiple Outside Interfaces and ISP Failover with Policy-based Routing (PBR)](pdf/lab_writeups/dnat_isp_failover_pbr.pdf)
-- [07. MPLS L3VPN (Different Scenerios)](pdf/lab_writeups/mpls_l3vpn.pdf)
-- [08. Redistribution (Route-tag, Unequal Cost Loadbalancing and Leak-map)](pdf/lab_writeups/redisribution_route_tag_UECLB_leak-map.pdf)
-- [09. TCP Load Distribution With Static NAT and Complex Wildcard Mask](pdf/lab_writeups/tcp_load_distrubution_and_wildcard_mask.pdf)
-- [10. MPLS Traffic Engineering Tunnels Per VRF](pdf/lab_writeups/te_tunnel_per_vrf.pdf)
-- [11. Seamless (or) Unified MPLS](pdf/lab_writeups/seamless_unified_mpls.pdf)
-- [12. MPLS Inter-AS Option-A](pdf/lab_writeups/optiona.pdf)
-- [13. MPLS Inter-AS Option-B](pdf/lab_writeups/optionb.pdf)
-- [14. MPLS Inter-AS Option-C](pdf/lab_writeups/optionc.pdf)
-- [15. Carrier Supporting Carrier (CSC)](pdf/lab_writeups/csc01.pdf)
-- [16. Locator/ID Separation Protocol (LISP)](pdf/lab_writeups/lisp00.pdf)
-- [17. Service Provider MPLS VPNs and BGP Peering with ISPs and Customers (SP Full Lab)](pdf/lab_writeups/sp_full_lab00.pdf)
-- [18. IXP Multilateral and Bilateral Peering Scenario](pdf/lab_writeups/ixp_peering.pdf)
-- [19. Mobile Backhaul IP/MPLS L3VPN Lab (BBU to EPC End-to-End IP Reachability)](pdf/lab_writeups/mobile_backhaul.pdf)
-- [20. Selective VRF Traffic Steering over PE–PE IPsec using FlexVPN in an MPLS L3VPN Core ](pdf/lab_writeups/pe-pe-ipsec.pdf)
-- [21. Enterprise Multi-home BGP Lab](pdf/lab_writeups/ent_bgp_lab01.pdf)
-- [22. BGP Route Filtering and Route Manipulation in an Enterprise Network](pdf/lab_writeups/BGP_Route_Filtering_And_Manipulation.pdf)
-- [23. Multipoint Multi-VLAN L2VPN Service over QinQ-Based VPLS](pdf/lab_writeups/qinq_vpls_01.pdf)
-- [24. IS-IS Multi-Area & Route-Leaking Lab](pdf/lab_writeups/IS-IS_Multi-area_&_Route-leaking.pdf)
-- [25. Destination-Based Remotely Triggered Black Hole (RTBH)](pdf/lab_writeups/RTBH00.pdf)
-
-
-### NETWORKING-NOTES
-- [01. What is a Microwave Link](pdf/note_mm/microwave_link.pdf)
-- [02. Software-Defined WAN (SD-WAN)](pdf/note_mm/sd_wan00.pdf)
-- [03. Ethernet, Port Number, Socket and Multicast Addresses of Routing Protocols](pdf/note_mm/socket_port00.pdf)
-- [04. Complex Wildcard Mask Calculation](pdf/note_mm/complex_wildcard_mask.pdf)
-- [05. Silent Killers for Network Engineers](pdf/note_mm/kill00.pdf)
-- [06. OSPF Link-State Advertisement Packet Types (LSA)](pdf/note_mm/lsa_types00.pdf)
-- [07. OSPF Special Areas](pdf/note_mm/ospf_special_areas.pdf)
-- [08. What is Virtual Routing and Forwarding (VRF)](pdf/note_mm/vrf00.pdf)
-- [09. What is Multiprotocol Label Switching (MPLS)](pdf/note_mm/mpls00.pdf)
-- [10. What is MPLS L3VPN](pdf/note_mm/mpls_l3vpn.pdf)
-- [11. What is MPLS L2VPN](pdf/note_mm/mpls_l2vpn.pdf)
-- [12. BGP Path Selection Process](pdf/note_mm/BGP_Path_Selection_Process.pdf)
-- [13. BGP Path Attributes in Brief](pdf/note_mm/bgp_path_attributes_in_brief.pdf)
-
-
-### EVE-ng IMAGES
-- [Cisco IOL Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgBy3oWotuHQT7cnJ4WC8n70AcFcifHGLwh7y5wd8ziE7M0?e=ZS8NeL)
-- [Dynamips Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCXkOkjMCabQql4LkhZgdHsARso-cQXSKn5aielZPGPF0g?e=Ue52TL)
-- [QEMU Images](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgDKZ1dxKjFiR5LS2uaF2DUIAXSgTawspOCCjig6VD5_BRk?e=IHMqYQ)
-- [Business](https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCOQC4JRhHEQJlSputJXtCwAdz8eCPAtcU2exLSEWijqMk?e=715HaK)
-  
-### CONTACT
-[📧 neolwin.net@gmail.com](mailto:neolwin.net@gmail.com)  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/neolwin2028)
-
-<p style="text-align:center;">©2026 NEO'S SERVICE PROVIDER LIBRARY. All rights reserved.</p> 
+<div class="home-latest glass-panel"><div class="section-title-row"><div><p class="eyebrow">EXPLORE THE LIBRARY</p><h2>Knowledge Base</h2></div><span class="section-mark">SP–DC–NET</span></div>
+<a class="latest-row" href="{{ '/lab-writeups/' | relative_url }}"><span class="latest-icon">⚗</span><span><strong>Lab Writeups</strong><small>Step-by-step labs, configurations and verification</small></span><span class="resource-arrow">↗</span></a>
+<a class="latest-row" href="{{ '/networking-notes/' | relative_url }}"><span class="latest-icon">▤</span><span><strong>Networking Notes</strong><small>Networking theory, concepts and design notes</small></span><span class="resource-arrow">↗</span></a>
+<a class="latest-row" href="{{ '/eve-ng-images/' | relative_url }}"><span class="latest-icon">▣</span><span><strong>EVE-NG Images</strong><small>Open existing image resource collections</small></span><span class="resource-arrow">↗</span></a>
+</div>
+<div class="home-contact"><span>Better Networks. Build a Stronger Future.</span><a href="mailto:neolwin.net@gmail.com">Contact</a><a href="https://www.linkedin.com/in/neolwin2028">LinkedIn</a><a href="https://github.com/neolwin-net/sp-dc-net">GitHub Repository</a></div>
+<p class="site-copyright">©2026 NEO'S SERVICE PROVIDER LIBRARY. All rights reserved.</p>
