@@ -3,6 +3,22 @@ layout: default
 title: SERVICE PROVIDER LIBRARY
 ---
 
+<div class="home-hero">
+  <div class="hero-copy">
+    <p class="eyebrow">SERVICE PROVIDER • DATA CENTER</p>
+    <h1>SP–DC–NET</h1>
+    <p class="hero-subtitle">Service Provider &amp; Data Center Networking Knowledge Base</p>
+    <p class="hero-topics">IP/MPLS <span>·</span> Segment Routing <span>·</span> BGP <span>·</span> Data Center</p>
+    <a class="hero-cta" href="#lab-writeups"><span class="cta-icon">↗</span><span><strong>Technical documentation</strong><small>Labs, configurations and engineering notes</small></span><span class="cta-arrow">›</span></a>
+  </div>
+  <div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="network-symbol">⌘</div><div class="network-caption">CONNECTED SYSTEMS<br><span>DESIGN · ROUTE · OPTIMIZE</span></div></div>
+</div>
+
+<div class="home-categories">
+  <a class="category-card" href="#lab-writeups"><span class="category-icon">⌘</span><span class="category-copy"><strong>Service Provider</strong><small>MPLS, BGP, SR-TE</small><span>Core networks, carrier routing, traffic engineering and service provider architecture.</span></span><span class="category-arrow">›</span></a>
+  <a class="category-card" href="#networking-notes"><span class="category-icon">▤</span><span class="category-copy"><strong>Data Center &amp; Networking</strong><small>Routing, design, labs</small><span>Network fundamentals, design concepts, configuration notes and troubleshooting.</span></span><span class="category-arrow">›</span></a>
+</div>
+
 ## Service Provider & Data Center Networking Library
 
 This site is dedicated to knowledge sharing on:
