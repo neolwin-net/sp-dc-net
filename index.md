@@ -86,7 +86,6 @@ permalink: /
 </div>
 
 <div class="home-latest glass-panel">
-
   <div class="section-title-row">
     <div>
       <p class="eyebrow">RECENTLY UPDATED</p>
@@ -106,7 +105,7 @@ permalink: /
       <span class="resource-arrow">↗</span>
     </a>
     <p class="latest-description">
-      Configure and verify BGP route filtering and route manipulation in an enterprise network.
+      Configure and verify BGP Route Filtering and Route Manipulation in an Enterprise Network in a practical networking lab.
       Browse all <a href="{{ '/lab-writeups/' | relative_url }}">Lab Writeups</a>.
     </p>
   </div>
@@ -122,11 +121,10 @@ permalink: /
       <span class="resource-arrow">↗</span>
     </a>
     <p class="latest-description">
-      Review how BGP path attributes influence route selection and routing policy.
+      Review the key concepts and practical applications of BGP Path Attributes in Brief.
       Browse all <a href="{{ '/networking-notes/' | relative_url }}">Networking Notes</a>.
     </p>
   </div>
-
 </div>
 
 <div class="home-contact">
