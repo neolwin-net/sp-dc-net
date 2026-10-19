@@ -92,22 +92,21 @@ permalink: /
       <p class="eyebrow">RECENTLY UPDATED</p>
       <h2>Last Updated Topics</h2>
     </div>
-
     <span class="section-mark">SP–DC–NET</span>
   </div>
 
   <div class="latest-topic-group">
     <p class="latest-topic-type">LAB WRITEUPS</p>
-    <a class="latest-row" href="{{ 'pdf/lab_writeups/dmvpn_phase_2.pdf' | relative_url }}">
+    <a class="latest-row" href="{{ 'pdf/lab_writeups/BGP_Route_Filtering_And_Manipulation.pdf' | relative_url }}">
       <span class="latest-icon">↻</span>
       <span>
-        <strong>DMVPN Phase 2 with IKEv2</strong>
-        <small>Lab Writeups · IP/MPLS · Open PDF document</small>
+        <strong>BGP Route Filtering and Route Manipulation in an Enterprise Network</strong>
+        <small>Lab Writeups · BGP · Open PDF document</small>
       </span>
       <span class="resource-arrow">↗</span>
     </a>
     <p class="latest-description">
-      Configure and verify a DMVPN Phase 2 deployment using IKEv2.
+      Configure and verify BGP route filtering and route manipulation in an enterprise network.
       Browse all <a href="{{ '/lab-writeups/' | relative_url }}">Lab Writeups</a>.
     </p>
   </div>
@@ -123,7 +122,7 @@ permalink: /
       <span class="resource-arrow">↗</span>
     </a>
     <p class="latest-description">
-      Explore how BGP path attributes influence route selection and routing policy.
+      Review how BGP path attributes influence route selection and routing policy.
       Browse all <a href="{{ '/networking-notes/' | relative_url }}">Networking Notes</a>.
     </p>
   </div>
