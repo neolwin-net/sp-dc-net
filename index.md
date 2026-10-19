@@ -83,6 +83,20 @@ permalink: /
     <span class="category-arrow">›</span>
   </a>
 
+  <a class="category-card" href="{{ '/pdf-library/' | relative_url }}">
+    <span class="category-icon">⇩</span>
+
+    <span class="category-copy">
+      <strong>PDF Library</strong>
+      <small>Cloud document vault</small>
+      <span>
+        Browse public PDF downloads and manage uploads through administrator login.
+      </span>
+    </span>
+
+    <span class="category-arrow">›</span>
+  </a>
+
 </div>
 
 <div class="home-latest glass-panel">
