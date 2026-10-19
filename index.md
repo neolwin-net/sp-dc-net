@@ -90,27 +90,43 @@ permalink: /
   <div class="section-title-row">
     <div>
       <p class="eyebrow">RECENTLY UPDATED</p>
-      <h2>Last Updated Topic</h2>
+      <h2>Last Updated Topics</h2>
     </div>
 
     <span class="section-mark">SP–DC–NET</span>
   </div>
 
-  <a class="latest-row" href="{{ 'pdf/note_mm/bgp_path_attributes_in_brief.pdf' | relative_url }}">
-    <span class="latest-icon">↻</span>
+  <div class="latest-topic-group">
+    <p class="latest-topic-type">LAB WRITEUPS</p>
+    <a class="latest-row" href="{{ 'pdf/lab_writeups/dmvpn_phase_2.pdf' | relative_url }}">
+      <span class="latest-icon">↻</span>
+      <span>
+        <strong>DMVPN Phase 2 with IKEv2</strong>
+        <small>Lab Writeups · IP/MPLS · Open PDF document</small>
+      </span>
+      <span class="resource-arrow">↗</span>
+    </a>
+    <p class="latest-description">
+      Configure and verify a DMVPN Phase 2 deployment using IKEv2.
+      Browse all <a href="{{ '/lab-writeups/' | relative_url }}">Lab Writeups</a>.
+    </p>
+  </div>
 
-    <span>
-      <strong>BGP Path Attributes in Brief</strong>
-      <small>Networking Notes · BGP · Open PDF document</small>
-    </span>
-
-    <span class="resource-arrow">↗</span>
-  </a>
-
-  <p class="latest-description">
-    Explore how BGP path attributes influence route selection and routing policy.
-    Browse the full <a href="{{ '/networking-notes/' | relative_url }}">Networking Notes collection</a> for more topics.
-  </p>
+  <div class="latest-topic-group">
+    <p class="latest-topic-type">NETWORKING NOTES</p>
+    <a class="latest-row" href="{{ 'pdf/note_mm/bgp_path_attributes_in_brief.pdf' | relative_url }}">
+      <span class="latest-icon">↻</span>
+      <span>
+        <strong>BGP Path Attributes in Brief</strong>
+        <small>Networking Notes · BGP · Open PDF document</small>
+      </span>
+      <span class="resource-arrow">↗</span>
+    </a>
+    <p class="latest-description">
+      Explore how BGP path attributes influence route selection and routing policy.
+      Browse all <a href="{{ '/networking-notes/' | relative_url }}">Networking Notes</a>.
+    </p>
+  </div>
 
 </div>
 
