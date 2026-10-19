@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NEO-SP
+title: The Nerdy NEO
 permalink: /
 ---
 
@@ -9,7 +9,7 @@ permalink: /
   <div class="hero-copy">
     <p class="eyebrow">NETWORK ENGINEERING</p>
 
-    <h1>NEO SP LIBRARY</h1>
+    <h1>The Nerdy NEO</h1>
 
     <p class="hero-subtitle">
       Service Provider &amp; Data Center Networking Library
@@ -17,8 +17,8 @@ permalink: /
 
     <p class="hero-topics">
       IP/MPLS <span>·</span>
-      Segment Routing <span>·</span>
       BGP <span>·</span>
+      Segment Routing <span>·</span>
       Data Center
     </p>
 
@@ -48,7 +48,7 @@ permalink: /
       <strong>Lab Writeups</strong>
       <small>25 configuration labs</small>
       <span>
-        MPLS, BGP, VPNs, traffic engineering and verification.
+        MPLS VPNs, BGP, Traffic Engineering and Verification.
       </span>
     </span>
 
@@ -115,7 +115,7 @@ permalink: /
 </div>
 
 <div class="home-contact">
-  <span>Better Networks. Build a Stronger Future.</span>
+  <span>Curious Mind. Complex Networks.</span>
 
   <a href="mailto:neolwin.net@gmail.com">Contact</a>
 
@@ -127,5 +127,5 @@ permalink: /
 </div>
 
 <p class="site-copyright">
-  ©2026 NEO'S SERVICE PROVIDER LIBRARY. All rights reserved.
+  ©2026 The Nerdy NEO. All rights reserved.
 </p>
