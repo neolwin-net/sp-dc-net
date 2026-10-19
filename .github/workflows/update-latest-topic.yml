@@ -22,8 +22,9 @@ jobs:
           fetch-depth: 0
 
       - name: Find latest updated note and update homepage
-        shell: python
+        shell: bash
         run: |
+          python3 - <<'PY'
           import re
           import subprocess
           from pathlib import Path
@@ -118,6 +119,7 @@ jobs:
               raise SystemExit("Could not locate homepage latest-topic section")
           home = home[:start] + section + "\n\n" + home[end:]
           home_path.write_text(home, encoding="utf-8")
+          PY
 
       - name: Commit homepage update
         run: |
