@@ -99,45 +99,27 @@ permalink: /
 
   <div class="section-title-row">
     <div>
-      <p class="eyebrow">EXPLORE THE LIBRARY</p>
-      <h2>Knowledge Base</h2>
+      <p class="eyebrow">LATEST CONTENT</p>
+      <h2>Last Updated Topic</h2>
     </div>
 
     <span class="section-mark">SP–DC–NET</span>
   </div>
 
-  <a class="latest-row" href="{{ '/lab-writeups/' | relative_url }}">
-    <span class="latest-icon">⚗</span>
-
-    <span>
-      <strong>Lab Writeups</strong>
-      <small>Step-by-step labs, configurations and verification</small>
-    </span>
-
-    <span class="resource-arrow">↗</span>
-  </a>
-
   <a class="latest-row" href="{{ '/networking-notes/' | relative_url }}">
-    <span class="latest-icon">▤</span>
+    <span class="latest-icon">↻</span>
 
     <span>
-      <strong>Networking Notes</strong>
-      <small>Networking theory, concepts and design notes</small>
+      <strong>Networking Notes &amp; Technical References</strong>
+      <small>Browse the latest networking topics, protocol explanations and design notes.</small>
     </span>
 
     <span class="resource-arrow">↗</span>
   </a>
 
-  <a class="latest-row" href="{{ '/eve-ng-images/' | relative_url }}">
-    <span class="latest-icon">▣</span>
-
-    <span>
-      <strong>EVE-NG Images</strong>
-      <small>Open existing image resource collections</small>
-    </span>
-
-    <span class="resource-arrow">↗</span>
-  </a>
+  <p class="latest-description">
+    Visit the Networking Notes section to find the most recently published or revised topic.
+  </p>
 
 </div>
 
