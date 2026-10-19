@@ -22,16 +22,6 @@ permalink: /
       Data Center
     </p>
 
-    <a class="hero-cta" href="{{ '/lab-writeups/' | relative_url }}">
-      <span class="cta-icon">▤</span>
-
-      <span>
-        <strong>Technical documentation</strong>
-        <small>Labs, configurations and engineering notes</small>
-      </span>
-
-      <span class="cta-arrow">›</span>
-    </a>
   </div>
 
   <div class="hero-art" aria-hidden="true">
