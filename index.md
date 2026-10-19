@@ -99,26 +99,27 @@ permalink: /
 
   <div class="section-title-row">
     <div>
-      <p class="eyebrow">LATEST CONTENT</p>
+      <p class="eyebrow">RECENTLY UPDATED</p>
       <h2>Last Updated Topic</h2>
     </div>
 
     <span class="section-mark">SP–DC–NET</span>
   </div>
 
-  <a class="latest-row" href="{{ '/networking-notes/' | relative_url }}">
+  <a class="latest-row" href="{{ 'pdf/note_mm/bgp_path_attributes_in_brief.pdf' | relative_url }}">
     <span class="latest-icon">↻</span>
 
     <span>
-      <strong>Networking Notes &amp; Technical References</strong>
-      <small>Browse the latest networking topics, protocol explanations and design notes.</small>
+      <strong>BGP Path Attributes in Brief</strong>
+      <small>Networking Notes · BGP · Open PDF document</small>
     </span>
 
     <span class="resource-arrow">↗</span>
   </a>
 
   <p class="latest-description">
-    Visit the Networking Notes section to find the most recently published or revised topic.
+    Explore how BGP path attributes influence route selection and routing policy.
+    Browse the full <a href="{{ '/networking-notes/' | relative_url }}">Networking Notes collection</a> for more topics.
   </p>
 
 </div>
