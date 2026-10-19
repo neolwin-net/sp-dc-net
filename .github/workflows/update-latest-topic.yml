@@ -1,0 +1,132 @@
+name: Update latest networking topic
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pdf/note_mm/**.pdf'
+      - 'networking-notes.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-latest-topic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find latest updated note and update homepage
+        shell: python
+        run: |
+          import re
+          import subprocess
+          from pathlib import Path
+
+          notes_path = Path("networking-notes.md")
+          home_path = Path("index.md")
+          notes = notes_path.read_text(encoding="utf-8")
+          home = home_path.read_text(encoding="utf-8")
+
+          # Find the most recently changed PDF under the networking-notes PDF folder.
+          log = subprocess.check_output(
+              ["git", "log", "-1", "--format=%H", "--", "pdf/note_mm"],
+              text=True
+          ).strip()
+          if not log:
+              raise SystemExit("No commits found for pdf/note_mm")
+
+          changed = subprocess.check_output(
+              ["git", "diff-tree", "--no-commit-id", "--name-only", "-r", log],
+              text=True
+          ).splitlines()
+
+          pdfs = [p for p in changed if p.startswith("pdf/note_mm/") and p.lower().endswith(".pdf")]
+          # If the latest commit changed no PDF, find the most recently committed PDF path.
+          if not pdfs:
+              history = subprocess.check_output(
+                  ["git", "log", "--format=", "--name-only", "--", "pdf/note_mm"],
+                  text=True
+              ).splitlines()
+              pdfs = [p for p in history if p.startswith("pdf/note_mm/") and p.lower().endswith(".pdf")]
+
+          if not pdfs:
+              raise SystemExit("No PDF found in networking notes history")
+
+          target = pdfs[0]
+          escaped = re.escape(target)
+          match = re.search(
+              r'<a class="resource-card"[^>]*href="{{\s*[\'"]?' + escaped + r'[\'"]?\s*\|\s*relative_url\s*}}">.*?</a>',
+              notes,
+              re.S
+          )
+          # Fallback: match the card by its href, regardless of whitespace.
+          if not match:
+              match = re.search(r'<a class="resource-card"[^>]*href="{{[^}]*' + escaped + r'[^}]*}}">.*?</a>', notes, re.S)
+          if not match:
+              raise SystemExit(f"Could not find a topic card for {target} in networking-notes.md")
+
+          card = match.group(0)
+          title_match = re.search(r'<strong>(.*?)</strong>', card, re.S)
+          category_match = re.search(r'<small>(.*?)</small>', card, re.S)
+          title = re.sub(r'\s+', ' ', title_match.group(1)).strip() if title_match else Path(target).stem.replace("_", " ").title()
+          category = re.sub(r'\s+', ' ', category_match.group(1)).strip() if category_match else "Networking Notes"
+
+          # Create a concise description from the topic title.
+          clean_title = re.sub(r'^\d+\.\s*', '', title)
+          description = f"Explore the key concepts and practical applications of {clean_title}. Browse the full Networking Notes collection for more topics."
+
+          section = f'''<div class="home-latest glass-panel">
+
+            <div class="section-title-row">
+              <div>
+                <p class="eyebrow">RECENTLY UPDATED</p>
+                <h2>Last Updated Topic</h2>
+              </div>
+
+              <span class="section-mark">SP–DC–NET</span>
+            </div>
+
+            <a class="latest-row" href="{{{{ '{target}' | relative_url }}}}">
+              <span class="latest-icon">↻</span>
+
+              <span>
+                <strong>{title}</strong>
+                <small>{category} · Open PDF document</small>
+              </span>
+
+              <span class="resource-arrow">↗</span>
+            </a>
+
+            <p class="latest-description">
+              {description.replace(' Browse the full Networking Notes collection for more topics.', '')}
+              Browse the full <a href="{{{{ '/networking-notes/' | relative_url }}}}">Networking Notes collection</a> for more topics.
+            </p>
+
+          </div>'''
+
+          pattern = r'<div class="home-latest glass-panel">.*?</div>\s*</div>'
+          # Use the bounded section up to the home-contact block to avoid matching nested divs incorrectly.
+          start = home.find('<div class="home-latest glass-panel">')
+          end = home.find('<div class="home-contact">', start)
+          if start < 0 or end < 0:
+              raise SystemExit("Could not locate homepage latest-topic section")
+          home = home[:start] + section + "\n\n" + home[end:]
+          home_path.write_text(home, encoding="utf-8")
+
+      - name: Commit homepage update
+        run: |
+          if git diff --quiet -- index.md; then
+            echo "Homepage already points to the latest topic."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git commit -m "Automatically update latest networking topic"
+          git push
