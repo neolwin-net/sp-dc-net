@@ -156,7 +156,7 @@ permalink: /networking-notes/
         <span class="resource-arrow">↗</span>
       </a>
 
-    <a class="resource-card" data-category="BGP" data-search="14. Inter-AS L3VPN" href="{{ 'pdf/note_mm/Inter-AS-L3VPN' | relative_url }}">
+    <a class="resource-card" data-category="BGP" data-search="14. Inter-AS L3VPN" href="{{ 'pdf/note_mm/Inter-AS-L3VPN.pdf' | relative_url }}">
         <span class="resource-icon">▤</span>
         <span class="resource-main">
           <strong>14. Inter-AS L3VPN</strong>
@@ -177,8 +177,8 @@ permalink: /networking-notes/
     <section class="glass-panel">
       <h2>Note Categories</h2>
 
-      <a class="sidebar-filter" href="#" data-filter="All">All Notes <span>13</span></a>
-      <a class="sidebar-filter" href="#" data-filter="IP/MPLS">IP/MPLS <span>6</span></a>
+      <a class="sidebar-filter" href="#" data-filter="All">All Notes <span>14</span></a>
+      <a class="sidebar-filter" href="#" data-filter="IP/MPLS">IP/MPLS <span>7</span></a>
       <a class="sidebar-filter" href="#" data-filter="BGP">BGP <span>3</span></a>
       <a class="sidebar-filter" href="#" data-filter="Data Center">Data Center <span>1</span></a>
       <a class="sidebar-filter" href="#" data-filter="Others">Others <span>3</span></a>
