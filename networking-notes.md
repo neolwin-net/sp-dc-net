@@ -156,6 +156,15 @@ permalink: /networking-notes/
         <span class="resource-arrow">↗</span>
       </a>
 
+    <a class="resource-card" data-category="BGP" data-search="14. Inter-AS L3VPN" href="{{ 'pdf/note_mm/Inter-AS-L3VPN' | relative_url }}">
+        <span class="resource-icon">▤</span>
+        <span class="resource-main">
+          <strong>14. Inter-AS L3VPN</strong>
+          <small>IP/MPLS · Open PDF document</small>
+        </span>
+        <span class="resource-arrow">↗</span>
+      </a>
+      
     </div>
 
     <p class="no-results" hidden>
