@@ -113,16 +113,16 @@ permalink: /
 
   <div class="latest-topic-group">
     <p class="latest-topic-type">NETWORKING NOTES</p>
-    <a class="latest-row" href="{{ 'pdf/note_mm/bgp_path_attributes_in_brief.pdf' | relative_url }}">
+    <a class="latest-row" href="{{ 'pdf/note_mm/Inter-AS-L3VPN.pdf' | relative_url }}">
       <span class="latest-icon">↻</span>
       <span>
-        <strong>BGP Path Attributes in Brief</strong>
-        <small>Networking Notes · BGP · Open PDF document</small>
+        <strong>Inter-AS L3VPN</strong>
+        <small>Networking Notes · IP/MPLS · Open PDF document</small>
       </span>
       <span class="resource-arrow">↗</span>
     </a>
     <p class="latest-description">
-      Review the key concepts and practical applications of BGP Path Attributes in Brief.
+      Review the key concepts and practical applications of Inter-AS L3VPN.
       Browse all <a href="{{ '/networking-notes/' | relative_url }}">Networking Notes</a>.
     </p>
   </div>
